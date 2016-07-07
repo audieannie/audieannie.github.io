@@ -73,7 +73,7 @@ li.dropdown {
 
 .dropdown-content a:hover {
     color: white;
-    background-color: black;
+    background-color: #0c3c60;
 }
 
 .dropdown:hover .dropdown-content {
