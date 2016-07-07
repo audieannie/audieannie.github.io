@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a, .dropbtn {
@@ -71,7 +71,10 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    color: white;
+    background-color: black;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
