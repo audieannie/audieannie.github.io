@@ -7,6 +7,10 @@ header {
     background-color: #000;
 }
 
+.logo {
+    float: left;
+}
+
 section {
     background-color: #FFF;
 }
@@ -17,6 +21,7 @@ footer {
 }
 
 footer p {
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -32,10 +37,6 @@ header nav ul {
 
 header nav ul li {
     float: right;
-}
-
-header nav ul li .logo {
-    float: left;
 }
 
 header nav ul li a {
