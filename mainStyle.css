@@ -58,7 +58,7 @@ header nav ul li a:hover {
 }
 
 /*------Dropdown Menu------*/
-li a, .dropbtn {
+.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -66,7 +66,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
     background-color: red;
 }
 
