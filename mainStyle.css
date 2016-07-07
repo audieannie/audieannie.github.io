@@ -33,7 +33,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    height: 200px;
     
     /*------Fixed Position------*/
     position: fixed;
