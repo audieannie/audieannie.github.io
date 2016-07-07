@@ -27,43 +27,28 @@ footer p {
 
 /*------Navigation Bar------*/
 
-header nav ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
-    /*fixed position at the top of the page*/
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
-header nav ul li {
-    float: right;
+li {
+    float: left;
 }
 
-header nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-header nav ul li a:hover {
-    background-color: #111;
-}
-
-/*------Dropdown Menu------*/
-.dropbtn {
+li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
 }
 
 li.dropdown {
@@ -90,4 +75,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
-} 
+}
