@@ -1,4 +1,13 @@
 body {
     color: #FFFFFF;
-    background-color: #FF00FF;
+    background-color: #0c3c60;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
