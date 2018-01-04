@@ -1,0 +1,119 @@
+/* ------ Form Style ------ */
+    /* ------ Desktop Form Style ------ */
+.form {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form legend {
+    font-size: 28px;
+    font-family: 'Eczar', serif;
+    color: white;
+}
+
+.form fieldset {
+    margin-bottom: 20px;
+    border: 2px solid #307BB4;
+    border-radius: 15px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 500px;
+    color: #307BB4;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.form label {
+    display: block;
+}
+
+.form label span, .formQ {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.form span {
+    display: block;
+}
+
+.form .myInput {
+    border: none;
+    padding: .65rem;
+    margin-left: 4%;
+    color: #307BB4;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.sideBySide {
+    width: 100%;
+}
+
+.fOne, .fTwo {
+    width: 50%;
+    float: left;
+    margin-right: 2%;
+}
+
+/* ------ Submit Button ------ */
+
+.form input.submit{
+    border: none;
+    padding: 15px;
+    background-color: #8FABC0;
+    color: #0E2434;
+    width: 20%;
+    font-size: 1.5rem;
+    float: right;
+    margin: 25px 15% 0 0;
+    border-radius: 15px;
+}
+
+.checks {
+    margin-left: 4%;
+}
+
+.radioBtn {
+    margin-right: 15px;
+    margin-left: 4%;
+}
+
+    /* ------ Phone Style ------ */
+@media only screen and (max-width: 600px) {
+    .fOne, .fTwo {
+        width: 100%;
+    }
+
+    .form .myInput {
+    border: none;
+    padding: .65rem;
+    margin-left: 4%;
+    color: #307BB4;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+    /* ------ Submit Button ------ */
+
+    .form input.submit{
+        border: none;
+        padding: 15px;
+        background-color: #8FABC0;
+        color: #0E2434;
+        width: 100%;
+        font-size: 1.5rem;
+        float: left;
+        margin: 25px 15% 0 0;
+        border-radius: 15px;
+    }
+}

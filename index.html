@@ -1,38 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Github Website</title>
-        <link rel="stylesheet" href="styleReset.css" type="text/css" />
-        <link rel="stylesheet" href="mainStyle.css" type="text/css" />
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="http://pghs.alpineschools.org/">PGHS Website</a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropbtn">Classes</a>
-                        <div class="dropdown-content">
-                          <a href="#">Exploring Computer Science</a>
-                          <a href="#">Programming</a>
-                          <a href="#">Intro to I.T.</a>
-                          <a href="#">Mobile Apps</a>
-                        </div>
-                      </li>
-                      <li><a href="#">Contact</a></li>
-                    <li><a href="index.html">Home</a></li>
-                </ul>
-                <img class="logo" src="images/VIKING-HEAD-CIRCLE.png"></img>
-            </nav>
-        </header>
-        <section>
-            <p class="mainQuote">"It's kind of fun to do the impossible"</p>
-            <p class="mainQuote">-Walt Disney</p>
-        </section>
-        <footer>
-            <p>&copy; 2016 &bull;  Audra Yocom</p>
-        </footer>
-            
-        
-    </body>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Home | PGHS Info Tech</title>
+	<link rel="stylesheet" type="text/css" href="styleReset.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+<!--My phones don't lie-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- Start of the navigation -->
+	<nav id="nav">
+	    <ul>
+	        <li><a href="index.html" class="active">Home</a></li>
+          	<li><a href="contact/contact.html">Contact</a></li>
+          	<li><a href="imageGallery/gallery.html">Gallery</a></li>
+          	<li><a href="schedule.html">Schedule</a></li>
+          	<li><a href="location.html">Location</a></li>
+	    </ul>
+	    <div class="keepOpen"></div>
+    </nav>
+
+    <!-- Start of the header -->
+	<header>
+		<h1 class="center">Pleasant Grove High School | Information Technology</h1>
+		<h2 class="center">Ms. Yocom</h2>
+	</header>
+
+	<div class="keepOpen"></div>
+
+<!-- Start of the main content -->
+	<main>	
+
+		<h2>Here is what one student had to say about programming:</h2>
+
+		<blockquote>"I never thought I could consider programming as a career. It always looked so complicated. After taking Programming 1, I realize this could be a viable career. I have coded multiple programs using the C# programming language. It was actually a lot of fun!"</blockquote>
+
+
+<!-- Image from: https://www.pexels.com/search/information%20technology/ -->
+		<figure class="mainImg">
+			<img src="images/motherboard.jpg" alt="close up of computer motherboard" >
+			<figcaption>A computer's motherboard</figcaption>
+		</figure>
+		<h2 id="homeH2">Some commonly use acronyms in my classes and on this site:</h2>
+		<dl>
+			<dt>CS</dt>
+				<dd>Computer Science</dd>
+			<dt>ECS</dt>
+				<dd>Exploring Computer Science</dd>
+			<dt>IT</dt>
+				<dd>Information Technology</dd>
+			<dt>USOE</dt>
+				<dd>Utah State Office of Education</dd>
+			<dt>STEM</dt>
+				<dd>Science, Technology, Engineering, and Math</dd>
+		</dl>
+
+		<h2 class="mobileHeader">Exploring Computer Science</h2>
+
+		<audio controls>
+			<source src="audio/ECS.ogg" type="audio/ogg">
+			<source src="audio/ECS.mp3" type="audio/mpeg">
+			Your browser doesn't support audio.
+		</audio>
+		
+		<p>ECS is designed to introduce students to the breadth of the field of computer science through an exploration of engaging and accessible topics. Rather than focusing the entire course on learning particular software tools or programming languages, the course is designed to focus the conceptual ideas of computing and help students understand why certain tools or languages might be utilized to solve particular problems. The goal of Exploring Computer Science is to develop in students the computational thinking practices of algorithm development, problem  solving and programming within the context of problems that are relevant to the lives of today’s students. Students will also be introduced to topics such as interface design, limits of computers and societal and ethical issues.
+		</p>
+
+		<br>
+		<a href="http://www.schools.utah.gov/CTE/it/Course-Information.aspx" target="_blank">Source: USOE</a>
+
+		<h2 class="mobileHeader">Intro to Information Technology</h2>
+
+		<audio controls>
+			<source src="audio/IntroIT.ogg" type="audio/ogg">
+			<source src="audio/IntroIT.mp3" type="audio/mpeg">
+			Your browser doesn't support audio.
+		</audio>
+
+		<p>The Introduction to IT course is for students interested in pursuing a career in the field of Information Technology. Students will be introduced to the different aspects of information technology to determine where their interests. Students will complete assignments and projects in the following categories: 
+		</p>
+
+		<ul id="squareList">
+			<li>IT careers</li> 
+			<li>Digital media</li> 
+			<li>Hardware and operating systems</li> 
+			<li>Communications and Networks</li>
+			<li>Software Development</li> 
+			<li>Databases</li>
+			<li>New and Emerging Technologies</li>
+		</ul>
+
+		<a href="http://www.schools.utah.gov/CTE/it/Course-Information.aspx" target="_blank">Source: USOE</a>
+
+		<h2 class="mobileHeader">Mobile Development Fundamentals</h2>
+
+		<audio controls>
+			<source src="audio/Mobile.ogg" type="audio/ogg">
+			<source src="audio/Mobile.mp3" type="audio/mpeg">
+			Your browser doesn't support audio.
+		</audio>
+
+		<p>This course is designed to teach skills to develop apps for phones, tablets, and other devices that run on a variety of operating system.
+		</p>
+		<br>
+		<a href="http://www.schools.utah.gov/CTE/it/Course-Information.aspx" target="_blank">Source: USOE</a>
+
+		<h2 class="mobileHeader">Programming</h2>
+
+		<audio controls>
+			<source src="audio/programming.ogg" type="audio/ogg">
+			<source src="audio/programming.mp3" type="audio/mpeg">
+			Your browser doesn't support audio.
+		</audio>
+
+		<p>An introductory course in computer programming/software engineering and applications. The course introduces students to the fundamentals of computer programming. Students will learn to design, code, and test their own programs while applying mathematical concepts. Teachers introduce concepts and problem solving skills to beginning students through a programming language such as:
+		</p>
+
+		<ul id="circleList">
+			<li>C++</li> 
+			<li>C#</li> 
+			<li>Java</li> 
+			<li>Python</li>
+			<li>JavaScript</li>
+		</ul>
+
+		<p>
+		The second half of the year reviews and builds on the concepts introduced in the first semester. This semester introduces students to more complex data structures and their uses, including sequential files, arrays, and classes. Students will learn to create more powerful programs.
+		</p>
+		<br>
+		<a href="http://www.schools.utah.gov/CTE/it/Course-Information.aspx" target="_blank">Source: USOE</a>
+
+		<p class="center2">Check out <a class="brochure" href="brochure.pdf" target="_blank">this brochure</a> about the I.T. Program here at PGHS!</p>
+				
+		<div class="keepOpen"></div>
+	</main>
+
+<!-- Start of the footer -->
+	<footer>
+		<!--Within page link-->
+		<p class="center"><a href="#nav">Back to Top</a></p>
+
+		<p class="center">&copy; 2017 &bull; Audra Yocom &bull; <a href="mailto:yocom.audra@gmail.com?Subject=Your%20Awesome%20Website">Email Webmaster</a></p>
+	</footer>
+</div> <!--end wrapper div-->
+</body>
 </html>

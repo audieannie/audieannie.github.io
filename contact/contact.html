@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact | PGHS Info Tech</title>
+	<link rel="stylesheet" type="text/css" href="../styleReset.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../indexStyle.css">
+	<link rel="stylesheet" type="text/css" href="formStyle2.css">
+<!--My phones don't lie-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="wrapper">
+
+<!-- Start of the navigation -->
+	<nav id="nav">
+	    <ul>
+	        <li><a href="../index.html">Home</a></li>
+          	<li><a href="contact.html" class="active">Contact</a></li>
+          	<li><a href="../imageGallery/gallery.html">Gallery</a></li>
+          	<li><a href="../schedule.html">Schedule</a></li>
+          	<li><a href="../location.html">Location</a></li>
+	    </ul>
+	    <div class="keepOpen"></div>
+    </nav>
+
+<!-- Start of the header -->
+	<header>
+		<h1 class="center">Pleasant Grove High School | Information Technology</h1>
+		<h2 class="center"> Contact Information</h2>
+	</header>
+	<div class="keepOpen"></div>
+<!-- Start of the main content -->
+	<main>
+
+		<h2>One of the many reasons Ms. Yocom thinks you should take her classes:</h2>
+
+		<blockquote>"Information Technology classes are about so much more than computers. It is all about problem solving and knowing where to look for answers. These are skills that will not only help you throughout your school career, but throughout your entire life!"</blockquote>
+
+		<h2>Get to Know Your Teacher:</h2>
+
+		<figure class="yocomPic">
+			<img alt="Picture of Ms. Yocom and her dog, Ellie" src="images/yocom.png">
+		</figure>
+
+		<p class="intro">I graduated from American Fork High School and later from Brigham Young University with a B.S. in Technology and Engineering Education. In both high school and college I was a part of the swim team. I have been swimming for as long as I can remember!</p> <br>
+
+		<p class="intro">Before teaching at Pleasant Grove High School, I taught part time at Timpanogos High School while also working for Ancestry.com. While I loved working in the technology industry, nothing compares to teaching. As soon as the opportunity was available to teach full-time at PGHS, I jumped on it!</p>
+		<br>
+		
+		<div class="keepOpen"></div>
+
+
+		<h2>Questions? Comments? Suggestions?</h2> 
+
+<!--Begin Form-->
+	<form class="form" action="FormToEmail.php" method="POST" enctype="multipart/form-data" id="contactMe">
+<!--Email Subject-->
+		<input type="hidden" name="subject" value="signup from website">
+<!--Redirect -->
+		<input type="hidden" name="redirect" value="../thanks.html">
+
+<!--First Input Fieldset-->	
+		<fieldset class="fOne"><legend>Your Name</legend>
+			<span>Salutation:</span>
+<!--Selection Menu with 4 options -->
+			<select name="salutation" form="contactMe" class="myInput">
+			  <option value="none">--None--</option>
+			  <option value="Mr">Mr.</option>
+			  <option value="Mrs">Mrs.</option>
+			  <option value="Ms">Ms.</option>
+			  <option value="Miss">Miss</option>
+			</select>
+<!--Name Section & Required fields -->
+			<label>
+				<span>First Name:</span> <input type="text" value="" placeholder="First Name" required class="myInput">
+			</label>
+			
+			<label>
+				<span>Last Name:</span> <input type="text" placeholder="Last Name" required class="myInput">
+			</label>
+		</fieldset>
+
+<!--Second Input Fieldset-->	
+		<div class="sideBySide">
+			<fieldset class="fTwo">
+					<legend>Contact Info</legend>
+		<!--Email Input & Required field -->
+					<label>
+						<span>Email:</span> <input type="email" name="email" value="" placeholder="joesmith@gmail.com" required class="myInput">
+					</label>
+		<!--Telephone Input & Pattern Requirements-->
+					<label>
+						<span>Phone:</span> <input type="tel" name="telephone" placeholder="8011234567" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="myInput">
+					</label>
+
+					<p class="formQ">Which Currently Describes You?</p>
+		<!-- Radio Button Inputs -->
+					<label class="radioBtn">
+						<input type="radio" name="class" value="Senior" >Senior
+					</label>
+					
+					<label class="radioBtn">
+						<input type="radio" name="class" value="Junior">Junior
+					</label>
+
+					<label class="radioBtn">
+						<input type="radio" name="class" value="Sophomore">Sophomore
+					</label>
+
+					<label class="radioBtn">
+						<input type="radio" name="class" value="Freshman">Freshman
+					</label>
+
+					<label class="radioBtn">
+						<input type="radio" name="class" value="Parent">Parent
+					</label>
+
+					<p class="formQ">Which classes are you interested in?</p>
+		<!--Checkbox Inputs -->
+					<label class="checks">
+						<input type="checkbox" name="ecs" value="Exploring Computer Science">Exploring Computer Science
+					</label>
+
+					<label class="checks">
+						<input type="checkbox" name="programming" value="Programming">Computer Programming
+					</label>		
+
+					<label class="checks">
+						<input type="checkbox" name="it" value="Intro to Information Technology">Intro to Information Technology
+					</label>
+
+					<label class="checks">
+						<input type="checkbox" name="mobileDev" value="Mobile Development">Mobile Development Fundamentals
+					</label>
+				</fieldset>
+
+		<!--Third Input Fieldset. Text area -->	
+				<fieldset class="fThree"><legend>Message</legend>
+					<textarea name="message" class="textArea"></textarea>
+				</fieldset>
+		</div> <!--end SideBySide Div-->
+
+	<!-- Submit Button -->
+	<input class="submit" type="submit" name="submit" value="Send Email">
+	</form>
+
+		<div class="keepOpen"></div>
+	</main>
+<div class="keepOpen"></div>
+<!-- Start of the footer -->
+	<footer>
+		<!--Within page link-->
+		<p class="center"><a href="#nav">Back to Top</a></p>
+
+		<p class="center">&copy; 2017 &bull; Audra Yocom &bull; <a href="mailto:yocom.audra@gmail.com?Subject=Your%20Awesome%20Website">Email Webmaster</a></p>
+	</footer>
+</div><!--end wrapper div-->
+</body>
+</html>

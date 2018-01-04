@@ -1,0 +1,15 @@
+How do you reference the hover subclass for a table row in CSS?
+	tr:hover
+
+How do you use CSS to turn every odd line in a table to a different background color?
+	You use the "n-th child" command to call out every "xth" row when you creat the CSS rule. 
+
+	table tr:nth-child(even) {
+		background-color:red;
+	}
+
+How would explain an iframe to a non technical person?
+	It is "website inception". A website within a website.
+
+Why don't drop-down menus work well on phones and tablets?
+	Because you can hover over things on a computer with your mouse, which would trigger the drop-down, but on mobile you really only have the option to tap and you would run out of space quickly if you tapped, had a dropdown, and had to figure out how to scroll or choose an option from the dropdown.
